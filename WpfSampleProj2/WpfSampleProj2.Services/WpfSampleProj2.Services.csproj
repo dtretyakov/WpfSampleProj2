@@ -26,9 +26,4 @@
     <ProjectReference Include="..\WpfSampleProj2.Lib\WpfSampleProj2.Lib.csproj" />
   </ItemGroup>
 
-  <PropertyGroup>
-    <GenerateResourceMSBuildArchitecture Condition=" '$(GenerateResourceMSBuildArchitecture)' == '' ">CurrentArchitecture</GenerateResourceMSBuildArchitecture>
-    <GenerateResourceMSBuildRuntime Condition=" '$(GenerateResourceMSBuildRuntime)' == '' ">CurrentRuntime</GenerateResourceMSBuildRuntime>
-  </PropertyGroup>
-
 </Project>
